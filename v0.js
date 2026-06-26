@@ -1,10 +1,10 @@
 function load(linkr){
-    const link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.type = 'text/css';
-    link.href = 'path/to/styles.css';
+    linkits = document.createElement('link');
+    linkits.rel = 'stylesheet';
+    linkits.type = 'text/css';
+    linkits.href = 'path/to/styles.css';
     
-    document.head.appendChild(linkr);
+    document.head.appendChild(linkits);
 }
 
 load("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css")
